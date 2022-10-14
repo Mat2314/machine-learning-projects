@@ -28,3 +28,7 @@ results of the algorithm perrofming on given dataset.
 
 ### visual_presentations.py
 This module simply presents how does the KNN algorithm work.
+
+### custom_examples.py
+In this module you can find ready functions for divers examples 
+using K Nearest Neigbors algorithm

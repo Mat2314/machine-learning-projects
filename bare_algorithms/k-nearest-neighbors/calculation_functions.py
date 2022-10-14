@@ -85,6 +85,7 @@ def str_column_to_int(dataset: list, column: int):
     # Make the unique values keys for the dictionary
     # and set their Set index as value for given key
     for i,value in enumerate(unique):
+        print(f"[{value}] => {i}")
         lookup[value] = i
     
     # Convert class names to integer indexes
@@ -201,3 +202,4 @@ def test_knn(filename: str):
 
 if __name__ == '__main__':
     print(load_csv(sys.argv[1])[0])
+    
