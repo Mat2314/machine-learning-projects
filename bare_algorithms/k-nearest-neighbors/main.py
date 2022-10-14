@@ -30,6 +30,10 @@ def test_new_prediction(filename):
 if __name__ == "__main__":
     # Read a filename with database from the command line
     filename = sys.argv[1]
-    
-    # test_new_prediction(filename)
+
+    # Or uncomment this line >
     test_knn(filename)
+
+    # Uncomment this line >
+    # test_new_prediction(filename)
+
